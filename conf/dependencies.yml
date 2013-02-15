@@ -2,3 +2,4 @@
 
 require:
     - play
+    - net.sf.opencsv -> opencsv 2.3

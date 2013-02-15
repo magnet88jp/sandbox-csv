@@ -1,0 +1,6 @@
+#{extends 'main.html' /}
+
+#{form @CsvFile.uploadFile(), enctype:'multipart/form-data'}
+  <input type="file" name="uploadFile" />
+  <input type="submit" name="_upload" value="登録"/>
+#{/form}
